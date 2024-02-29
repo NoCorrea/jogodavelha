@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da velha</title>
-    <link rel="stylesheet" href=".style/reset.css">
-    <link rel="stylesheet" href=".styles/styles.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <main>
-        <section class="small-container"></section>
+    <main class="container">
+        <section class="small-container">
+            <input class="player-field" placeholder="jogador 1">
+            <div class="box-player-field">
+                <input class="player-field-2" placeholder="jogador 2">
+                <div class="switcher">
+                    <div class="switcher-ball"></div>
+                </div>
+            </div>
+        </section>
         <section class="big-container"></section>
         <section class="small-container"></section>
     </main>

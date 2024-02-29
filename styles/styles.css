@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.small-container {
+  width: 30%;  
+  height: 100%;
+  background-color: #0099FF;
+}
+.big-container {
+    width: 40%;
+    height: 100%;
+    background-color: #0099FF95;
+}
+.player-field {
+    width: 317px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    outline: none;
+}
+.box-player-field {
+    width: 317px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+.player-field-2 {
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px ;
+    background-color: transparent;
+    outline: none;
+}

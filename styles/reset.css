@@ -46,11 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /*custom*/
 *{
     box-sizing: border-box;
-
 }
 button {
     cursor: pointer;
-} 
+}
