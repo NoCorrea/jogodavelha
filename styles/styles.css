@@ -1,3 +1,11 @@
+:root {
+    color: (--principal-color)(64, 177, 236)
+    color(#0097E6, #2BA9EA, #2BD1B1, #45F391,#B9FBD6, #BFE5F9 red green blue)
+}
+
+
+
+
 .container {
     display: flex;
     width: 100vw;
@@ -8,12 +16,12 @@
 .small-container {
   width: 30%;  
   height: 100%;
-  background-color: #0099FF;
+  background-color:  #0097EA;
 }
 .big-container {
     width: 40%;
     height: 100%;
-    background-color: #0099FF95;
+    background-color: #2BA9EA;
 }
 .player-field {
     width: 317px;
@@ -27,7 +35,7 @@
     width: 317px;
     height: 48px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #FFFF;
     
 }
 
@@ -39,3 +47,22 @@
     background-color: transparent;
     outline: none;
 }
+
+/*
+.switcher {
+    width: 20%;
+    height: 80%;
+    background-color: #2BA9EA;
+}
+.box-player-field {
+    display: flex;
+    padding: 3%;
+}
+
+
+.switcher-ball {
+    /* essa estilização não funcionou para o switch para torná-lo um botão branco*/
+    background-color: #FFFF;
+    width: 5px;
+    height: 5px;
+}*/
