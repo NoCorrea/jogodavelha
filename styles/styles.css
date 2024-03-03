@@ -116,6 +116,9 @@
     font-size: 70%;/*11px;*/
 }
 
+.game-type-title {
+    margin-top: 2%;
+}
 .switcher-white {
 	border: 2px solid white;
 }/*não está funcionando para o elemento*/
