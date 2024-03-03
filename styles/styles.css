@@ -1,5 +1,4 @@
 :root {
-    color: (--principal-color)(64, 177, 236)
     color(#0097E6, #2BA9EA, #2BD1B1, #45F391,#B9FBD6, #BFE5F9 red green blue)
 }
 
@@ -17,52 +16,110 @@
   width: 30%;  
   height: 100%;
   background-color:  #0097EA;
+  padding: 2%;
+  
 }
 .big-container {
     width: 40%;
     height: 100%;
     background-color: #2BA9EA;
 }
-.player-field {
-    width: 317px;
-    height: 48px;
+.player-field{
+    width: 95%;
+    height: 9%;
     border-radius: 10px;
     border: none;
-    padding-left: 15px;
+    padding-left: 4%;
     outline: none;
+    border: solid 1px white;
+    
 }
 .box-player-field {
-    width: 317px;
-    height: 48px;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 9%;
     border-radius: 10px;
-    background-color: #FFFF;
+    background-color:#FFF;
+    padding-right: 9px;
+    border: white 1px solid;
     
+    
+}
+
+.box-player-field:focus-within {
+    border: #0097E6 1px solid;
+    
+
 }
 
 .player-field-2 {
     border: none;
-    width: 100%;
+    width: 75%;
     height: 100%;
     border-radius: 10px ;
     background-color: transparent;
     outline: none;
+    padding-left: 4%;
 }
 
-/*
+.player-field:focus {
+    border: #0097E6 1px solid;
+}
+
+
+
 .switcher {
-    width: 20%;
-    height: 80%;
-    background-color: #2BA9EA;
-}
-.box-player-field {
+    width: 56px;
+    height: 32px;
+    border-radius: 100px;
+    background-color: #0097EA;
     display: flex;
-    padding: 3%;
+    align-items: center;
+    padding: 4px;
+    position: relative;
+ 
 }
 
 
+.switcher:hover .switcher-ball {
+    background-color: #FFF;
+    right: 4px;
+    transition: 300ms;
+    cursor: pointer;
+   
+    
+}
 .switcher-ball {
-    /* essa estilização não funcionou para o switch para torná-lo um botão branco*/
-    background-color: #FFFF;
-    width: 5px;
-    height: 5px;
-}*/
+    
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: absolute;
+    right: 20px;
+    
+}
+
+.game-type-title {
+    color: aquamarine;
+    font-weight: 700;
+}
+.game-type-md-text {
+    color: #FFF;
+    font-weight: 400;
+}
+.game-type-wrapper {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 70%;/*11px;*/
+}
+
+.switcher-white {
+	border: 2px solid white;
+}/*não está funcionando para o elemento*/
+
+
+
+
