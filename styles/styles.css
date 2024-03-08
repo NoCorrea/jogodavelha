@@ -5,7 +5,8 @@
 .container {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    background-color: #0097EA;
     
 }
 
@@ -13,7 +14,7 @@
   width: 30%;  
   height: 100%;
   background-color:  #0097EA;
-  padding: 2%;
+  Padding: 2%;
 
   
 }
@@ -24,10 +25,9 @@
 }
 .player-field{
     width: 95%;
-    height: 9%;
+    height: 5%;/*essa altura nao funciona*/
     border-radius: 10px;
     border: none;
-    padding-left: 4%;
     outline: none;
     border: solid 1px white;
     
@@ -163,8 +163,7 @@
     
 }
 .restart-button {
-    background-color: red/*#FFF;*//*verificar configuração deste botão, vermelho não
-    sutiu efeito.*/
+    background-color: red;/*#FFF;*/
     color: #2BA9EA;
     margin-top: 10%;
 
